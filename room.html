@@ -95,7 +95,7 @@
                                     <span class="prev"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> </span>
                                     <span class="next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg> </span>
                                 </div>
-                                <!-- MAPPER: rooms[current].images[0] 의 isSelected=true 이미지 sortOrder 순 동적 생성 -->
+                                <!-- MAPPER: rooms[current].images[0] 의 isSelected=true 이미지 sortOrder 순 0~2번째 3장 동적 생성 -->
                                 <ul class="swiper-wrapper"></ul>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                             </ul>
                         </div>
                         <div class="room_if inner" data-aos="fade-up">
-                            <!-- MAPPER: rooms[current].description (\n→<br>) -->
+                            <!-- MAPPER: customFields roomtype hero title (\n→<br>), 없으면 미노출 -->
                             <div class="txt">
                             </div>
 
@@ -251,6 +251,14 @@
                         </div>
                     </div>
                 </div>
+                <!-- s: 객실 평면도 — 원본 객실 상세의 평면도 크롤링 이미지가 있을 때만 노출.
+                     제목 영역 없이 도면 이미지 한 장만 놓는다. 없으면 매퍼가 구간째 숨긴다. -->
+                <div class="room_floorplan" data-room-floorplan-section style="display: none">
+                    <!-- data-* : data-room-floorplan-image
+                         roomtypes[current] 평면도 이미지 → 없으면 섹션 미노출 -->
+                    <img alt="객실 평면도" data-room-floorplan-image />
+                </div>
+                <!--// 객실 평면도 -->
                 <!-- 서브페이지 [e] -->
             </div>
 
