@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.3.0",
-    "generatedAt": "2026-10-09T11:02:27.727998598Z",
+    "version": "1.4.0",
+    "generatedAt": "2026-10-09T11:03:28.193073161Z",
     "templateType": "trip_e",
     "propertyId": "0aa252f0-6afd-4061-808f-8c0f0672e6b0",
     "homepageId": "8d3fad98-f2f2-4b77-87e0-7a9c68638916"
@@ -70,6 +70,55 @@
       "securityDeposit": 0
     },
     "facilities": [
+      {
+        "id": "01a12053-80f4-7dc0-9da3-1743a1d053e4",
+        "name": "오션뷰",
+        "description": "전 객실에서 아름다운 오션뷰의 경관을 바라보며\n여유로운 힐링과 특별한 시간을 보내보세요.",
+        "usageGuide": "",
+        "displayOrder": 0,
+        "images": [
+          {
+            "id": "01a12054-d4ae-7424-bc7e-17100a8014c7",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a12053-80f4-7dc0-9da3-1743a1d053e4/main/1791543792023-9kwcgeyhrh.webp",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "01a12054-d42f-780e-8e18-6493bdbde015",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a12053-80f4-7dc0-9da3-1743a1d053e4/main/1791543792027-gwvl5974us.webp",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "01a12054-d575-7e0b-ae2b-6355f8739a0a",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a12053-80f4-7dc0-9da3-1743a1d053e4/main/1791543792021-hm7884zxih.webp",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "01a12054-d41e-7314-8a9c-ca4bc10df4ee",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a12053-80f4-7dc0-9da3-1743a1d053e4/main/1791543792027-b7u5lly2j5.webp",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "01a12054-d42f-7019-8ea9-7aeed5c51b9d",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a12053-80f4-7dc0-9da3-1743a1d053e4/main/1791543792028-mvtv5kzcsb.webp",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ]
+      },
       {
         "id": "627948c3-90fa-4e16-bfcc-aea0c11df9e3",
         "name": "애견동반",
