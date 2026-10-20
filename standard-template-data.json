@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.4.0",
-    "generatedAt": "2026-10-09T11:03:28.193073161Z",
+    "version": "1.5.0",
+    "generatedAt": "2026-10-20T15:03:49.394857916Z",
     "templateType": "trip_e",
     "propertyId": "0aa252f0-6afd-4061-808f-8c0f0672e6b0",
     "homepageId": "8d3fad98-f2f2-4b77-87e0-7a9c68638916"
@@ -1409,8 +1409,8 @@
                     "blockId": null
                   },
                   {
-                    "id": "ee50cecb-7800-41fb-8adb-86c9e3561395",
-                    "url": "https://greenhouseps.co.kr/assets/images/main/7.webp",
+                    "id": "01a159d7-0252-7ccd-bd8b-ce138e3ba435",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/8d3fad98-f2f2-4b77-87e0-7a9c68638916/index_hero/1792508624734-n157r8x13o.jpg",
                     "sortOrder": 6,
                     "description": "",
                     "isSelected": true,
@@ -2771,7 +2771,10 @@
           ],
           "nameEn": ""
         }
-      ]
+      ],
+      "footer": {
+        "ruralStayMark": null
+      }
     }
   }
 }
